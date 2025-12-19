@@ -1,0 +1,94 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #FF7E5F, #FEB47B);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.fixed-image {
+    position: fixed; /* Fixa a imagem na tela */
+    top: 0; /* Fixa a imagem no topo */
+    left: 0; /* Fixa a imagem à esquerda */
+    width: 100%; /* Você pode ajustar o tamanho, se necessário */
+    height: auto; /* Ajusta a altura de acordo com a proporção da imagem */
+    z-index: 9999; /* Garante que a imagem fique por cima de outros elementos */
+    pointer-events: none; /* Garante que a imagem não bloqueie a interação com outros elementos */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 120px; /* Espaço para evitar que o título sobreponha a imagem */
+}
+
+.present-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.present-box {
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.present-box:hover {
+    transform: scale(1.05);
+}
+
+#result {
+    display: none;
+    margin-top: 40px;
+}
+
+#present-result {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffeb3b;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
