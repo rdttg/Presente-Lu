@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const presentes = ['Cartão feito à mão', 'Top', 'Saia'];
+    const presentes = ['Cartão feito à mão', 'Rímel', 'Vale janta q eu vo fazer'];
     
     const presentBoxes = document.querySelectorAll('.present-box');
     const resultSection = document.getElementById('result');
