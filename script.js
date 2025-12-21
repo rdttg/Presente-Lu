@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const timerDisplay = document.getElementById('timer-display'); 
 
     presentBoxes.forEach(box => {
-        box.textContent = '???';
+        box.textContent = '🎁';
         box.style.backgroundColor = '#f1f1f1'; 
     });
 
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.present-options').style.display = 'flex';
 
         presentBoxes.forEach(box => {
-            box.textContent = '???';
+            box.textContent = '🎁';
             box.style.backgroundColor = '#f1f1f1';
         });
 
