@@ -60,3 +60,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+const bonusBtn = document.getElementById('bonus-present');
+
+bonusBtn.addEventListener('click', function () {
+    window.location.href = 'bonus.html';
+});
+
+
