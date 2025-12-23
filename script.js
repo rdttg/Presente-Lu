@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const presentes = ['Cartão feito à mão', 'Rímel', 'Gloss'];
+    const presentes = ['Vale compra da shein 60 reais', 'Vale compra da shein 100 reais', 'Vale compra da shein 50 reais'];
     
     const presentBoxes = document.querySelectorAll('.present-box');
     const resultSection = document.getElementById('result');
